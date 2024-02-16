@@ -1,0 +1,6 @@
+- id: eslint-docker
+  name: eslint (via docker)
+  description: eslint, but provided by docker
+  entry: eslint
+  language: docker
+  files: \.js$
